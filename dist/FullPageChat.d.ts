@@ -7,7 +7,7 @@ type Props = BotProps & {
 declare global {
     namespace JSX {
         interface IntrinsicElements {
-            'flowise-fullchatbot': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
+            'anjin-fullchatbot': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
                 class?: string;
             };
         }
