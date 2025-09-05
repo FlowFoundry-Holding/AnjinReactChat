@@ -4,7 +4,7 @@ type Props = BubbleProps;
 declare global {
     namespace JSX {
         interface IntrinsicElements {
-            'flowise-chatbot': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+            'anjin-chatbot': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         }
     }
 }
